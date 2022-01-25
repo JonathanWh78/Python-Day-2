@@ -6,8 +6,8 @@ for i in range (1500, 2700):
 
 #Task2
 print ("Please Select an Conversion method: ")
-print ("Option 1: Convert to Celsius")
-print  ("Option 2: Convert to Farenheit")
+print ("Option 1: Convert to Farenheit")
+print  ("Option 2: Convert to Celsius")
 choice = int(input("Enter Option: "))
 if choice == 1:
     TempF = int(input("Please Enter the temperature: "))
